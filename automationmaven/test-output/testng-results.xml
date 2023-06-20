@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="17" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-15T11:07:31 EDT" name="Default suite" finished-at="2023-06-15T11:07:43 EDT" duration-ms="12037">
+    <groups>
+    </groups>
+    <test started-at="2023-06-15T11:07:31 EDT" name="Default test" finished-at="2023-06-15T11:07:43 EDT" duration-ms="12037">
+      <class name="com.salesforceseleniumtest.SalesForceAutomationTestScript1">
+        <test-method is-config="true" signature="setParamsBeforeTest()[pri:0, instance:com.salesforceseleniumtest.SalesForceAutomationTestScript1@5e2c3d18]" started-at="2023-06-15T11:07:31 EDT" name="setParamsBeforeTest" finished-at="2023-06-15T11:07:31 EDT" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParamsBeforeTest -->
+        <test-method is-config="true" signature="setBeforeTestMethod(java.lang.String)[pri:0, instance:com.salesforceseleniumtest.SalesForceAutomationTestScript1@5e2c3d18]" started-at="2023-06-15T11:07:31 EDT" name="setBeforeTestMethod" finished-at="2023-06-15T11:07:34 EDT" duration-ms="2314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBeforeTestMethod -->
+        <test-method signature="createdContactInTheContactPage()[pri:0, instance:com.salesforceseleniumtest.SalesForceAutomationTestScript1@5e2c3d18]" started-at="2023-06-15T11:07:34 EDT" name="createdContactInTheContactPage" finished-at="2023-06-15T11:07:42 EDT" duration-ms="8602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createdContactInTheContactPage -->
+        <test-method is-config="true" signature="tearDownAfterMethod()[pri:0, instance:com.salesforceseleniumtest.SalesForceAutomationTestScript1@5e2c3d18]" started-at="2023-06-15T11:07:42 EDT" name="tearDownAfterMethod" finished-at="2023-06-15T11:07:43 EDT" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+      </class> <!-- com.salesforceseleniumtest.SalesForceAutomationTestScript1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

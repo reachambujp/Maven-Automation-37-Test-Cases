@@ -1,0 +1,7 @@
+salesforceautomation\utility\PropertiesUtility.class
+com\salesforceseleniumtest\SalesForceBaseClass.class
+com\salesforceseleniumtest\SalesForceAutomationTestScript.class
+salesforceautomation\utility\ExtentReportUtility.class
+salesforceautomation\utility\AutomationConstants.class
+com\salesforceseleniumtest\SalesForceAutomationTestScript1.class
+salesforceautomation\utility\TestEventListernerUtility.class

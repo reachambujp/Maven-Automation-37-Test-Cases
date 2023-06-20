@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="salesforceautomation.utility.TestEventListernerUtility"/>
+  </listeners>
+  <test thread-count="5" name="chromeTest(failed)" verbose="0">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.salesforceseleniumtest.SalesForceAutomationTestScript">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="setBeforeTestMethod"/>
+          <include name="mergeAccounts"/>
+          <include name="loginToSalesForceTestScript"/>
+          <include name="setParamsBeforeTest"/>
+        </methods>
+      </class> <!-- com.salesforceseleniumtest.SalesForceAutomationTestScript -->
+      <class name="com.salesforceseleniumtest.SalesForceAutomationTestScript1">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="setBeforeTestMethod"/>
+          <include name="verifyFirstNmeLastNme"/>
+          <include name="checkErrormessage"/>
+          <include name="cancelButtonWorks"/>
+          <include name="verifyEditedLastName"/>
+          <include name="setParamsBeforeTest"/>
+        </methods>
+      </class> <!-- com.salesforceseleniumtest.SalesForceAutomationTestScript1 -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
